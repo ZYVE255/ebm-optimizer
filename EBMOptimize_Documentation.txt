@@ -1,0 +1,11 @@
+This is the documentation for the Optimize function build for Taylor Bell's EBM.
+
+Optimize function:
+Optimize(_planet, _star, _error, verbose=False)
+
+_planet: Planet in the system
+_star: Star in the system
+_error: Maximum amount of acceptable error in ppm
+verbose: Will output progress and function run time in console (False is default)
+
+Returns: Function does not return values, instead prints out recommended temporal and spatial resolution
