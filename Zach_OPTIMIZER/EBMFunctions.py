@@ -23,6 +23,7 @@ def CreateBaseline(star, planet, temporal=5000, spacial=32,orbit=2):
     """
     _star = star
     _planet = planet
+    _planet.map = ebm.Map.Map(nlat=spacial)
     _system = ebm.System(_star, _planet)
     
     Teq = _system.get_teq()
