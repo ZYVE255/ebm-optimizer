@@ -9,5 +9,5 @@ Available Functions:
 2) RunTests: Used to test an array of points against the baseline for run time and error
 3) Optimize: Used to find best temporal and spatial resolution for a given planet system
 
-Author: Zachary Yetman Van Egmond
+Author: Zachary Yetman Van Egmond, 
 Contact me: zacharyyve@gmail.com
